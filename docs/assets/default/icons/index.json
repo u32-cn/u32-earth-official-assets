@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "updated": "2026-11-27",
+  "series": "default",
+  "type": "icons",
+  "counting": "files/bytes 从磁盘实算，不含各级 index.json",
+  "resources": [
+    {
+      "name": "pngs",
+      "kind": "dir",
+      "path": "pngs/",
+      "entry": "",
+      "files": 5,
+      "bytes": 13282,
+      "source": "未标注",
+      "license": "MIT"
+    },
+    {
+      "name": "svgs",
+      "kind": "dir",
+      "path": "svgs/",
+      "entry": "",
+      "files": 3,
+      "bytes": 1571,
+      "source": "未标注",
+      "license": "MIT"
+    }
+  ]
+}

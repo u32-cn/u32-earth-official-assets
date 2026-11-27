@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+
+# AI agent 工具目录/文件
+.workbuddy/
+.zcode/
+.claude/
+.codebuddy/
+.cursor/
+.windsurf/
+.codeium/
+.aider*
+.copilot*
+CLAUDE.md.local

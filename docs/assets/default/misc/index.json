@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "updated": "2026-11-27",
+  "series": "default",
+  "type": "misc",
+  "counting": "files/bytes 从磁盘实算，不含各级 index.json",
+  "resources": [
+    {
+      "name": "world.jpg",
+      "kind": "file",
+      "path": "",
+      "entry": "world.jpg",
+      "files": 1,
+      "bytes": 30684,
+      "source": "未标注",
+      "license": "MIT"
+    }
+  ]
+}

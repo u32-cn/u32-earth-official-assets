@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "updated": "2026-11-27",
+  "series": "default",
+  "counting": "files/bytes 从磁盘实算，不含各级 index.json",
+  "files": 3557,
+  "bytes": 92483167,
+  "types": [
+    {
+      "name": "3dtiles",
+      "path": "3dtiles/",
+      "index": "3dtiles/index.json",
+      "resources": 2,
+      "files": 321,
+      "bytes": 24788903
+    },
+    {
+      "name": "effects",
+      "path": "effects/",
+      "index": "effects/index.json",
+      "resources": 4,
+      "files": 5,
+      "bytes": 431620
+    },
+    {
+      "name": "geojson",
+      "path": "geojson/",
+      "index": "geojson/index.json",
+      "resources": 1,
+      "files": 4,
+      "bytes": 15970978
+    },
+    {
+      "name": "gltfs",
+      "path": "gltfs/",
+      "index": "gltfs/index.json",
+      "resources": 1,
+      "files": 1,
+      "bytes": 261536
+    },
+    {
+      "name": "icons",
+      "path": "icons/",
+      "index": "icons/index.json",
+      "resources": 2,
+      "files": 8,
+      "bytes": 14853
+    },
+    {
+      "name": "misc",
+      "path": "misc/",
+      "index": "misc/index.json",
+      "resources": 1,
+      "files": 1,
+      "bytes": 30684
+    },
+    {
+      "name": "terrains",
+      "path": "terrains/",
+      "index": "terrains/index.json",
+      "resources": 1,
+      "files": 3216,
+      "bytes": 48179522
+    },
+    {
+      "name": "videos",
+      "path": "videos/",
+      "index": "videos/index.json",
+      "resources": 1,
+      "files": 1,
+      "bytes": 2805071
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>u32-earth-official-assets · 资源浏览</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --fg: #1f2328; --panel: #ffffff; --border: #d0d7de;
+    --muted: #656d76; --accent: #0969da; --accent-fg: #ffffff; --soft: #f0f3f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --fg: #e6edf3; --panel: #161b22; --border: #30363d;
+      --muted: #8b949e; --accent: #58a6ff; --accent-fg: #0d1117; --soft: #21262d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.6 -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; }
+  header { padding: 24px 28px 18px; border-bottom: 1px solid var(--border); background: var(--panel); }
+  h1 { margin: 0 0 6px; font-size: 22px; }
+  header p { margin: 0; color: var(--muted); }
+  .stats { margin-top: 10px; color: var(--muted); font-size: 13px; }
+  main { display: grid; grid-template-columns: repeat(3, minmax(240px, 1fr)); gap: 16px; padding: 20px 28px 40px; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; min-height: 320px; overflow: hidden; }
+  .panel h2 { margin: 0; padding: 12px 16px; font-size: 14px; border-bottom: 1px solid var(--border); background: var(--soft); }
+  .list { padding: 8px; max-height: 560px; overflow: auto; }
+  .item { display: block; width: 100%; text-align: left; padding: 8px 10px; margin-bottom: 4px; border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--fg); cursor: pointer; font: inherit; }
+  .item:hover { background: var(--soft); border-color: var(--border); }
+  .item.active { background: var(--accent); color: var(--accent-fg); }
+  .item .meta { display: block; color: var(--muted); font-size: 12px; }
+  .item.active .meta { color: inherit; opacity: .85; }
+  .empty { padding: 16px; color: var(--muted); }
+  .detail { padding: 14px 16px; }
+  .detail code { display: block; word-break: break-all; padding: 8px 10px; background: var(--soft); border-radius: 6px; margin: 6px 0 10px; }
+  button.copy { padding: 5px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); color: var(--fg); cursor: pointer; }
+  button.copy:hover { border-color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>u32-earth-official-assets</h1>
+  <p>u32-earth 官方资源库：系列 / 资源类型 / 资源 三级索引浏览</p>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <section class="panel"><h2>1 · 系列</h2><div class="list" id="series"></div></section>
+  <section class="panel"><h2>2 · 资源类型</h2><div class="list" id="types"></div></section>
+  <section class="panel"><h2>3 · 资源</h2><div class="list" id="resources"></div></section>
+</main>
+<div class="detail" id="detail" style="padding:0 28px 40px"></div>
+
+<script type="application/json" id="site-data">{"updated": "2026-11-27", "counting": "files/bytes 从磁盘实算，不含各级 index.json", "totals": {"series": 1, "types": 8, "resources": 13, "files": 3557, "bytes": 92483167}, "tree": {"default": {"3dtiles": [{"name": "dayanta_3dtiles_20241202", "kind": "dir", "path": "dayanta_3dtiles_20241202/", "entry": "tileset.json", "files": 316, "bytes": 12958165, "source": "未标注", "license": "MIT"}, {"name": "revit_school_3dtiles1.1", "kind": "dir", "path": "revit_school_3dtiles1.1/", "entry": "tileset.json", "files": 5, "bytes": 11830738, "source": "未标注", "license": "MIT"}], "effects": [{"name": "explode.gif", "kind": "file", "path": "", "entry": "explode.gif", "files": 1, "bytes": 20744, "source": "未标注", "license": "MIT"}, {"name": "radarScan.png", "kind": "file", "path": "", "entry": "radarScan.png", "files": 1, "bytes": 27922, "source": "未标注", "license": "MIT"}, {"name": "signal.png", "kind": "file", "path": "", "entry": "signal.png", "files": 1, "bytes": 2197, "source": "未标注", "license": "MIT"}, {"name": "water-effects", "kind": "dir", "path": "water-effects/", "entry": "", "files": 2, "bytes": 380757, "source": "未标注", "license": "MIT"}], "geojson": [{"name": "tianditu_GS_2024_0650", "kind": "dir", "path": "tianditu_GS_2024_0650/", "entry": "", "files": 4, "bytes": 15970978, "source": "未标注", "license": "MIT"}], "gltfs": [{"name": "running_jerry.glb", "kind": "file", "path": "", "entry": "running_jerry.glb", "files": 1, "bytes": 261536, "source": "未标注", "license": "MIT"}], "icons": [{"name": "pngs", "kind": "dir", "path": "pngs/", "entry": "", "files": 5, "bytes": 13282, "source": "未标注", "license": "MIT"}, {"name": "svgs", "kind": "dir", "path": "svgs/", "entry": "", "files": 3, "bytes": 1571, "source": "未标注", "license": "MIT"}], "misc": [{"name": "world.jpg", "kind": "file", "path": "", "entry": "world.jpg", "files": 1, "bytes": 30684, "source": "未标注", "license": "MIT"}], "terrains": [{"name": "taiwan", "kind": "dir", "path": "taiwan/", "entry": "layer.json", "files": 3216, "bytes": 48179522, "source": "未标注", "license": "MIT"}], "videos": [{"name": "big-buck-bunny_trailer.mp4", "kind": "file", "path": "", "entry": "big-buck-bunny_trailer.mp4", "files": 1, "bytes": 2805071, "source": "未标注", "license": "MIT"}]}}}</script>
+<script>
+(function () {
+  const data = JSON.parse(document.getElementById('site-data').textContent);
+  const t = data.totals;
+  document.getElementById('stats').textContent =
+    `${t.series} 系列 · ${t.types} 类型 · ${t.resources} 资源 · ${t.files.toLocaleString()} 文件 · ${fmt(t.bytes)} · 更新 ${data.updated}`;
+
+  let s = null, y = null;
+  const $ = id => document.getElementById(id);
+
+  function fmt(n) {
+    if (n < 1024) return n + ' B';
+    if (n < 1048576) return (n / 1024).toFixed(1) + ' KB';
+    return (n / 1048576).toFixed(1) + ' MB';
+  }
+  function btn(label, meta, cls, fn) {
+    const b = document.createElement('button');
+    b.className = 'item' + (cls ? ' ' + cls : '');
+    b.innerHTML = '<span>' + label + '</span><span class="meta">' + meta + '</span>';
+    b.onclick = fn;
+    return b;
+  }
+  function empty(el, msg) { el.innerHTML = '<div class="empty">' + msg + '</div>'; }
+
+  function renderSeries() {
+    const el = $('series'); el.innerHTML = '';
+    for (const name of Object.keys(data.tree)) {
+      const types = data.tree[name];
+      const files = Object.values(types).flat().reduce((a, r) => a + r.files, 0);
+      const bytes = Object.values(types).flat().reduce((a, r) => a + r.bytes, 0);
+      el.appendChild(btn(name, Object.keys(types).length + ' 类型 · ' + files.toLocaleString() + ' 文件 · ' + fmt(bytes),
+        s === name ? 'active' : '', () => { s = name; y = null; renderSeries(); renderTypes(); renderResources(); $('detail').innerHTML = ''; }));
+    }
+  }
+  function renderTypes() {
+    const el = $('types'); el.innerHTML = '';
+    if (!s) return empty(el, '请先选择系列');
+    for (const name of Object.keys(data.tree[s])) {
+      const rs = data.tree[s][name];
+      const files = rs.reduce((a, r) => a + r.files, 0);
+      const bytes = rs.reduce((a, r) => a + r.bytes, 0);
+      el.appendChild(btn(name, rs.length + ' 资源 · ' + files.toLocaleString() + ' 文件 · ' + fmt(bytes),
+        y === name ? 'active' : '', () => { y = name; renderTypes(); renderResources(); $('detail').innerHTML = ''; }));
+    }
+  }
+  function renderResources() {
+    const el = $('resources'); el.innerHTML = '';
+    if (!s || !y) return empty(el, '请先选择资源类型');
+    for (const r of data.tree[s][y]) {
+      el.appendChild(btn(r.name, r.kind + ' · ' + r.files.toLocaleString() + ' 文件 · ' + fmt(r.bytes) + (r.entry ? ' · ' + r.entry : ''),
+        '', () => showDetail(r)));
+    }
+  }
+  function showDetail(r) {
+    const url = '/assets/' + s + '/' + y + '/' + (r.path || '') + (r.entry || '');
+    $('detail').innerHTML = '<h3>' + r.name + '</h3><code>' + url + '</code>' +
+      '<div>' + r.files.toLocaleString() + ' 文件 · ' + fmt(r.bytes) + ' · source: ' + r.source + ' · license: ' + r.license + '</div>' +
+      '<button class="copy" id="copy">复制路径</button>';
+    $('copy').onclick = () => {
+      if (navigator.clipboard) navigator.clipboard.writeText(url);
+      else { const ta = document.createElement('textarea'); ta.value = url; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); }
+      $('copy').textContent = '已复制';
+    };
+  }
+  renderSeries(); renderTypes(); renderResources();
+})();
+</script>
+</body>
+</html>

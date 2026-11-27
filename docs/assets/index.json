@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "updated": "2026-11-27",
+  "counting": "files/bytes 从磁盘实算，不含各级 index.json",
+  "files": 3557,
+  "bytes": 92483167,
+  "series": [
+    {
+      "name": "default",
+      "path": "default/",
+      "index": "default/index.json",
+      "types": 8,
+      "files": 3557,
+      "bytes": 92483167
+    }
+  ]
+}

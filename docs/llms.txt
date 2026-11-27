@@ -1,0 +1,14 @@
+# u32-earth-official-assets
+
+u32-earth 官方资源库：按「系列 / 资源类型 / 资源」三级组织 3D Tiles、地形、GeoJSON、图标等资源，并提供逐级索引，供 Cesium 三维地球加载。
+
+## 关键路径
+
+- `/` —— 资源浏览页（索引数据已内嵌，无外部依赖）
+- `/assets/index.json` —— 第 1 级：系列清单
+- `/assets/default/index.json` —— 第 2 级：资源类型清单
+- `/assets/default/<类型>/index.json` —— 第 3 级：该类型下的资源清单
+
+## 使用
+
+读取第 1 级索引，按 `index` 字段逐级下钻到第 3 级；资源 URL 为 `/assets/<系列>/<类型>/<资源>/<entry>`。所有路径均为相对路径，不含域名。`files`/`bytes` 不含任何 `index.json` 本身。
