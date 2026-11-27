@@ -1,7 +1,6 @@
 {
   "schema": 1,
   "updated": "2026-11-27",
-  "series": "default",
   "counting": "files/bytes 从磁盘实算，不含各级 index.json",
   "files": 3557,
   "bytes": 92483167,
@@ -47,6 +46,14 @@
       "bytes": 14853
     },
     {
+      "name": "imageries",
+      "path": "imageries/",
+      "index": "imageries/index.json",
+      "resources": 14,
+      "files": 0,
+      "bytes": 0
+    },
+    {
       "name": "misc",
       "path": "misc/",
       "index": "misc/index.json",
@@ -58,7 +65,7 @@
       "name": "terrains",
       "path": "terrains/",
       "index": "terrains/index.json",
-      "resources": 1,
+      "resources": 6,
       "files": 3216,
       "bytes": 48179522
     },

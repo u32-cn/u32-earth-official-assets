@@ -1,19 +1,14 @@
 {
   "schema": 1,
   "updated": "2026-11-27",
-  "series": "default",
   "type": "videos",
   "counting": "files/bytes 从磁盘实算，不含各级 index.json",
   "resources": [
     {
       "name": "big-buck-bunny_trailer.mp4",
-      "kind": "file",
-      "path": "",
-      "entry": "big-buck-bunny_trailer.mp4",
+      "path": "big-buck-bunny_trailer.mp4",
       "files": 1,
-      "bytes": 2805071,
-      "source": "未标注",
-      "license": "MIT"
+      "bytes": 2805071
     }
   ]
 }

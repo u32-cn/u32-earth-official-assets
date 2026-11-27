@@ -1,49 +1,32 @@
 {
   "schema": 1,
   "updated": "2026-11-27",
-  "series": "default",
   "type": "effects",
   "counting": "files/bytes 从磁盘实算，不含各级 index.json",
   "resources": [
     {
       "name": "explode.gif",
-      "kind": "file",
-      "path": "",
-      "entry": "explode.gif",
+      "path": "explode.gif",
       "files": 1,
-      "bytes": 20744,
-      "source": "未标注",
-      "license": "MIT"
+      "bytes": 20744
     },
     {
       "name": "radarScan.png",
-      "kind": "file",
-      "path": "",
-      "entry": "radarScan.png",
+      "path": "radarScan.png",
       "files": 1,
-      "bytes": 27922,
-      "source": "未标注",
-      "license": "MIT"
+      "bytes": 27922
     },
     {
       "name": "signal.png",
-      "kind": "file",
-      "path": "",
-      "entry": "signal.png",
+      "path": "signal.png",
       "files": 1,
-      "bytes": 2197,
-      "source": "未标注",
-      "license": "MIT"
+      "bytes": 2197
     },
     {
       "name": "water-effects",
-      "kind": "dir",
       "path": "water-effects/",
-      "entry": "",
       "files": 2,
-      "bytes": 380757,
-      "source": "未标注",
-      "license": "MIT"
+      "bytes": 380757
     }
   ]
 }
