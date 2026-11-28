@@ -1,0 +1,29 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T07:04:03Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": "tianditu_GS_2024_0650",
+        "type": "dir",
+        "sizeBytes": null,
+        "mtime": "2026-11-28T09:51:16Z"
+      },
+      {
+        "name": ".u32-dir.json",
+        "type": "file",
+        "sizeBytes": 622,
+        "mtime": "2026-11-28T09:39:13Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T09:51:30Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": "天地图GS（2024）0650号_2025.9更新.txt",
+        "type": "file",
+        "sizeBytes": 0,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "中国_省.geojson",
+        "type": "file",
+        "sizeBytes": 1698398,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "中国_市.geojson",
+        "type": "file",
+        "sizeBytes": 4265699,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "中国_县.geojson",
+        "type": "file",
+        "sizeBytes": 10006881,
+        "mtime": "2026-11-18T09:02:38Z"
+      }
+    ]
+  }
+}

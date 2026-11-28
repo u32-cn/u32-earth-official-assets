@@ -1,0 +1,45 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "mercator_grid"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "mercator_grid",
+        "description": "墨卡托网格",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "GridImageryProvider",
+            "tilingScheme": {
+              "type": "WebMercatorTilingScheme"
+            },
+            "backgroundColor": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glowColor": [
+              1,
+              1,
+              1,
+              0.05
+            ],
+            "glowWidth": 2,
+            "canvasSize": 512,
+            "cells": 4
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}

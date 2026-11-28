@@ -1,0 +1,28 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "arcgis_imagery"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "arcgis_imagery",
+        "description": "ArcGIS世界影像",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "UrlTemplateImageryProvider",
+            "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T07:04:03Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": ".u32-dir.json",
+        "type": "file",
+        "sizeBytes": 762,
+        "mtime": "2026-11-28T09:39:13Z"
+      },
+      {
+        "name": "earthspec.png",
+        "type": "file",
+        "sizeBytes": 86561,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "waterNormals.jpg",
+        "type": "file",
+        "sizeBytes": 294196,
+        "mtime": "2026-11-18T09:02:38Z"
+      }
+    ]
+  }
+}

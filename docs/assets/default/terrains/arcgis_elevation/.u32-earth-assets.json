@@ -1,0 +1,27 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "arcgis_elevation"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "arcgis_elevation",
+        "description": "ArcGIS高程地形",
+        "type": "CzmTerrain",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "ArcGISTiledElevationTerrainProvider",
+            "url": "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"
+          },
+          "zIndex": 0
+        }
+      }
+    ]
+  }
+}

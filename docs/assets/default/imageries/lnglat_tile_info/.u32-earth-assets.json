@@ -1,0 +1,30 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "lnglat_tile_info"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "lnglat_tile_info",
+        "description": "经纬度瓦片信息，一般用于调试",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "TileCoordinatesImageryProvider",
+            "tilingScheme": {
+              "type": "GeographicTilingScheme"
+            }
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}

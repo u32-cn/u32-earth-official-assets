@@ -1,0 +1,26 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "none"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "none",
+        "description": "平球无地形",
+        "type": "CzmTerrain",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "EllipsoidTerrainProvider"
+          },
+          "zIndex": 0
+        }
+      }
+    ]
+  }
+}

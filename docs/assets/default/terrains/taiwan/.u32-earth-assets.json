@@ -1,0 +1,30 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "taiwan"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "taiwan",
+        "description": "台湾地形",
+        "type": "CzmTerrain",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "CesiumTerrainProvider",
+            "url": "./",
+            "requestVertexNormals": false,
+            "requestWaterMask": false,
+            "requestMetadata": false
+          },
+          "zIndex": 0
+        }
+      }
+    ]
+  }
+}

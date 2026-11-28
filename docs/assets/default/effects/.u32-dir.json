@@ -1,0 +1,47 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T07:04:03Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": "water-effects",
+        "type": "dir",
+        "sizeBytes": null,
+        "mtime": "2026-11-28T07:04:03Z"
+      },
+      {
+        "name": ".u32-dir.json",
+        "type": "file",
+        "sizeBytes": 1035,
+        "mtime": "2026-11-28T09:39:13Z"
+      },
+      {
+        "name": "explode.gif",
+        "type": "file",
+        "sizeBytes": 20744,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "radarScan.png",
+        "type": "file",
+        "sizeBytes": 27922,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "signal.png",
+        "type": "file",
+        "sizeBytes": 2197,
+        "mtime": "2026-11-18T09:02:38Z"
+      }
+    ]
+  }
+}

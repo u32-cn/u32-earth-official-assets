@@ -1,0 +1,35 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T07:04:03Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": "pngs",
+        "type": "dir",
+        "sizeBytes": null,
+        "mtime": "2026-11-28T07:04:03Z"
+      },
+      {
+        "name": "svgs",
+        "type": "dir",
+        "sizeBytes": null,
+        "mtime": "2026-11-28T07:04:03Z"
+      },
+      {
+        "name": ".u32-dir.json",
+        "type": "file",
+        "sizeBytes": 736,
+        "mtime": "2026-11-28T09:39:13Z"
+      }
+    ]
+  }
+}

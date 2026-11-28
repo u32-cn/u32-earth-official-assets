@@ -1,0 +1,28 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "google_terrain"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "google_terrain",
+        "description": "Google地形",
+        "type": "CzmTerrain",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "GoogleEarthEnterpriseTerrainProvider",
+            "url": "https://terrain.googleapis.com/terrain",
+            "metadata": "https://terrain.googleapis.com/terrain"
+          },
+          "zIndex": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "cesium_ion"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "cesium_ion",
+        "description": "Cesium官方地形",
+        "type": "CzmTerrain",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "CesiumTerrainProvider",
+            "url": "ion://1",
+            "requestVertexNormals": true,
+            "requestWaterMask": true,
+            "requestMetadata": true
+          },
+          "zIndex": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "gaode_mercator"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "gaode_mercator",
+        "description": "高德地图-墨卡托切片",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "UrlTemplateImageryProvider",
+            "url": "https://webst01.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}",
+            "maximumLevel": 18
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}

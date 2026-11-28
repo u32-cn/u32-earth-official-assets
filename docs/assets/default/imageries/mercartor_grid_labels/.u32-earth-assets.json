@@ -1,0 +1,28 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "mercartor_grid_labels"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "mercartor_grid_labels",
+        "description": "瓦片坐标",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "CustomImageryProvider",
+            "createImageryProviderFuncStr": "function main() { return new GridLabelTileCoordinatesImageryProvider({ tilingScheme: new Cesium.WebMercatorTilingScheme() }); }"
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}

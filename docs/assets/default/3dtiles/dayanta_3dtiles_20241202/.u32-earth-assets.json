@@ -1,0 +1,23 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "dayanta_3dtiles_20241202"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "dayanta_3dtiles_20241202",
+        "description": null,
+        "type": "CzmTileset",
+        "objJson": {
+          "show": true,
+          "url": "tileset.json"
+        }
+      }
+    ]
+  }
+}

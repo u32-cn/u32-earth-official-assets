@@ -1,0 +1,53 @@
+{
+  "magic": "u32-dir-listing",
+  "version": 1,
+  "meta": {
+    "author": "vtxf",
+    "created": "2026-11-28T07:04:03Z",
+    "updated": "2026-11-28T09:51:30Z",
+    "generator": "u32-ls gen-dir-listing@1.11.1",
+    "title": "目录清单",
+    "u32-origin": "static"
+  },
+  "data": {
+    "writable": false,
+    "entries": [
+      {
+        "name": ".u32-dir.json",
+        "type": "file",
+        "sizeBytes": 1168,
+        "mtime": "2026-11-28T09:39:13Z"
+      },
+      {
+        "name": "hone.png",
+        "type": "file",
+        "sizeBytes": 2138,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "location_small.png",
+        "type": "file",
+        "sizeBytes": 944,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "location.png",
+        "type": "file",
+        "sizeBytes": 3934,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "ship.png",
+        "type": "file",
+        "sizeBytes": 3450,
+        "mtime": "2026-11-18T09:02:38Z"
+      },
+      {
+        "name": "user.png",
+        "type": "file",
+        "sizeBytes": 2816,
+        "mtime": "2026-11-18T09:02:38Z"
+      }
+    ]
+  }
+}

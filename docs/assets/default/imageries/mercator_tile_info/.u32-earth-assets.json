@@ -1,0 +1,30 @@
+{
+  "magic": "u32-earth-assets",
+  "version": 1,
+  "meta": {
+    "author": "u32-earth",
+    "created": "2026-11-28T07:03:25Z",
+    "updated": "2026-11-28T07:03:25Z",
+    "title": "mercator_tile_info"
+  },
+  "data": {
+    "entries": [
+      {
+        "name": "mercator_tile_info",
+        "description": "墨卡托瓦片信息，一般用于调试",
+        "type": "CzmImagery",
+        "objJson": {
+          "show": true,
+          "source": {
+            "type": "TileCoordinatesImageryProvider",
+            "tilingScheme": {
+              "type": "WebMercatorTilingScheme"
+            }
+          },
+          "zIndex": 0,
+          "config": null
+        }
+      }
+    ]
+  }
+}
